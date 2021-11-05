@@ -1,10 +1,21 @@
-# ako-operator
+# Load Balancer Operator
 
 This package provides NSX Advanced Load Balancer using ako-operator.
 
 ## Components
 
-* ako-operator
+* Deployment for the Load Balancer Operator (ako-operator)
+* CRD for `AKODeploymentConfig`
+* Two `AKODeploymentConfig` for management and workload clusters respectively
+
+## Supported Providers
+
+The following tables shows the providers this package can work with.
+
+| AWS  |  Azure  | vSphere  | Docker |
+|:---:|:---:|:---:|:---:|
+|  ❌ |   ❌ | ✅  |  ❌  |
+
 
 ## Configuration
 
